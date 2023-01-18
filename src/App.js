@@ -19,7 +19,7 @@ function App() {
   function handleKey(e){
     if(e.key === 'Enter'){
       if(todo === ""){
-        alert("Maldito Imbecil Escribe No Seas Perezoso")
+        alert("Escribe algo")
       }else{
         setList([...list, todo])   
         setTodo("")
